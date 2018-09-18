@@ -1,0 +1,40 @@
+{
+    "Isotopes": [
+        {
+            "ElementName":"Carbon-14",
+            "Lambda":0.00020968
+        },
+        {
+            "ElementName":"Uranium-235 --> Lead",
+            "Lambda":0.0000000009902
+        },
+        {
+            "ElementName":"Uranium-238",
+            "Lambda":0.000000000154033
+        },
+        {
+            "ElementName":"Samarium-147",
+            "Lambda":0.00000000000653921
+        },
+        {
+            "ElementName":"Potassium-40",
+            "Lambda":0.00000000053319
+        },
+        {
+            "ElementName":"Rubidium-87",
+            "Lambda":0.0000000000138629
+        },
+        {
+            "ElementName":"Uranium-234",
+            "Lambda":0.0000086643390757
+        },
+        {
+            "ElementName":"Uranium-235 --> Protactinium",
+            "Lambda":0.0000215833884
+        },
+        {
+            "ElementName":"Chlorine-36",
+            "Lambda":0.000002310490602
+        }
+    ]
+}
