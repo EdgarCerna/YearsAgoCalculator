@@ -1,31 +1,28 @@
 <!DOCTYPE html>
 <head>
     <title>Years Ago Calculator</title>
+    <script src="calculator.js"></script>
 </head>
+
 <body>
     <h1>Years Ago Calulator</h1>
-    <form>
-        Element Name:<br>
-        <input list="Elements" name="ElementName">
-        <datalist id="Elements">
-            <option value="Uranium-235 --> Lead">
-            <option value="Carbon-14">
-            <option value="Potassium-40">
-            <option value="Samarium-147">
-            <option value="Uranium-238">
-            <option value="Rubidium-87">
-            <option value="Uranium-234">
-            <option value="Uranium-235 --> Protactinium">
-            <option value="Chlorine-36">
-        </datalist><br><br>
-        Number of Daughter Atoms:<br>
-        <input type="number" name="DaughterAtoms"><br><br>
-        Sample Size:<br>
-        <input type="number" name="SampleSize"><br><br>
-    </form>
-    <a href="answer.html"></a>
 
-        <form action="answer.html">
-            <input type="Submit" value="Submit" />
-        </form>
+    <form name="myForm" onsubmit="ageCalc()" action="answer.php">
+        Element Name:<br>
+        <input name="Isotope" list="isotope" name="Isotope">
+            <datalist id="isotope">
+                <option value="Uranium-235 --> Lead">
+                <option value="Carbon-14">
+                <option value="Potassium-40">
+                <option value="Samarium-147">
+                <option value="Uranium-238">
+                <option value="Rubidium-87">
+                <option value="Uranium-234">
+                <option value="Uranium-235 --> Protactinium">
+                <option value="Chlorine-36">
+            </datalist><br><br>
+        Number of Daughter Atoms:<br><input type="number" name="DaughterAtoms" id="daughterAtoms"><br><br>
+        Sample Size:<br><input type="number" name="SampleSize" id="sampleSize"><br><br>
+        <input type="submit" value="Sumbit">
+    </form>
 </body>
